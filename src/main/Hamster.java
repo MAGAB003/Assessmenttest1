@@ -30,7 +30,7 @@ public class Hamster {
     if(likesFood.size()==1){
         return greet() + name + " likes " +  likesFood.size() + " type of food.";
     }
-        return greet() + name + " likes " +  likesFood.size() + " types of food.";
+        return greet() + name + " likes " +  likesFood.size()+ " types of food.";
     }
 
     public String getBurrowPosition()
